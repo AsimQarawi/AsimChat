@@ -8,24 +8,24 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class UsersController : ControllerBase
     {
-        private readonly DataContext _context;
+        private readonly DataContext context;
 
         public UsersController(DataContext context)
         {
-            _context = context;
+            this.context = context;
         }
 
         [HttpGet]
         public ActionResult<IEnumerable<User>> GetUsers()
         {
-            var users = _context.DataUsers.ToList();
+            var users = context.DataUsers.ToList();
             return Ok(users);
         }
 
         [HttpGet("{id}")]
         public ActionResult<User> GetUserById(int id)
         {
-            var user = _context.DataUsers.Find(id);
+            var user = context.DataUsers.Find(id);
             if (user == null)
             {
                 return NotFound("ops user is not found"); // Return 404 if user is not found

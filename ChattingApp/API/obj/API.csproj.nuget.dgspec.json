@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asimq\\ChattingApp\\API\\API.csproj": {}
+    "C:\\Users\\asimq\\Desktop\\AsimChat\\ChattingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asimq\\ChattingApp\\API\\API.csproj": {
+    "C:\\Users\\asimq\\Desktop\\AsimChat\\ChattingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asimq\\ChattingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\asimq\\Desktop\\AsimChat\\ChattingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\asimq\\ChattingApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\asimq\\Desktop\\AsimChat\\ChattingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\asimq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asimq\\ChattingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\asimq\\Desktop\\AsimChat\\ChattingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
